@@ -1,0 +1,23 @@
+---
+---
+// my custom variables that Minima can use here
+
+@import "minima";
+
+img:active {
+  top: 4px;
+  position: relative;
+}
+
+img {
+  position: relative;
+  top: 0;
+  transition: all 0.3s;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: underline dotted #bbb;
+}

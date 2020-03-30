@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /tutorials
 title: Tutorials
 ---
 

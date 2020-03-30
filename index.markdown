@@ -4,6 +4,11 @@
 
 layout: page
 ---
+
+> Thanks for your patience, on `Mon Mar 30 04:13:38 EDT 2020` I am still in
+> the process of putting this together, with some screen recording videos
+> planned, but generally thinking this 8 hours of work away from ready.
+
 While we are stuck inside "working" remotely I figured I would take the opportunity to offer my knowledge to help anyone who does any organizing that is data centric. I'll show some ways I know how to make nice statistics out of freely entered text data from Google forms, some voter file tricks, and maybe some general sequel advice.
 
 I will put all of it on this site, preferably to supplement a virtual meeting but also for perusing at conveneince. The goal of this tutorial is going to be best to give practical advice and also like general technical training.
