@@ -20,6 +20,11 @@ install PHPMyAdmin locally, on windows you'll also need [Apache XAMPP][xampp].
 
 > Better than `cmd` and has `ssh` built-in.
 
+Get it **[HERE][git-download]**. You want the one that starts with `Git...` and
+ends with `...-64-bit.exe`. For example, **`Git-2.26.0-64-bit.exe`**.
+
+[git-download]: https://github.com/git-for-windows/git/releases/tag/v2.26.0.windows.1
+
 _git_ - [the stupid content tracker][sct] is a "fast, scalable, distributed
 revision control system with an unusually rich command set". The reason for
 this requirement is for the BASH shell.
@@ -65,6 +70,24 @@ my recommended answers.
 
 I used [this site][gitbashscreens] for reference to what the options are.
 
+#### Git BASH Copy Paste
+
+The standard key combination to copy from a linux terminal is `Ctrl+Shift+C`.
+The reason for this is that `Ctrl+C` is for exiting a program and returning to
+the command prompt, which is the copy shortcut.
+
+To enable this shortcut in Git BASH, open it and then:
+
+1. Right click on the title bar and select `Options`, the third from the
+    bottom.
+1. In the left panel of the options, select `Keys`.
+1. In the `Keyboard features` enable the last setting in `Shortcuts`:
+    `Ctrl+Shift+letter shortcuts`.
+1. Click the `Save` button at the bottom.
+
+![Select the right size][git-bash-cp]
+
+[git-bash-cp]: {{ '/img/git_bash_cp.jpg' | relative_url }} "Illustrated Steps to enable Copy/paste"
 
 ## PHP My Admin
 
