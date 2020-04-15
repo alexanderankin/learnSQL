@@ -200,6 +200,26 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get install -y php7.4-fpm php7.4-mysql php7.4-mbstring nginx mysql-server unzip
 ```
 
+* Ensure the right major versions of everything are loaded:
+
+```
+sqllearner@learnSQLDemo:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:  Ubuntu 19.10
+Release:  19.10
+Codename: eoan
+toor@ankininfo:~$ nginx -v
+nginx version: nginx/1.16.1 (Ubuntu)
+toor@ankininfo:~$ php -v
+PHP 7.4.4 (cli) (built: Mar 20 2020 13:48:10) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Zend OPcache v7.4.4, Copyright (c), by Zend Technologies
+toor@ankininfo:~$ mysql -V
+mysql  Ver 8.0.19-0ubuntu0.19.10.3 for Linux on x86_64 ((Ubuntu))
+```
+
 * Set the root password for MySQL Server by running `sudo mysql` and running
 these commands:
 
